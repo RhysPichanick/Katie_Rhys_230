@@ -1,0 +1,49 @@
+
+  <!DOCTYPE html>
+<html>
+<title>CAB230</title>
+<head>
+
+<link href='style-mobile.css' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="index.js"></script>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">Log In</a></li>
+<li style="float:right"><a href="#about">Sign up</a></li>
+</ul>
+    
+<div class="search">
+    
+<input type="text" />
+    <div class="dropdown">
+<button onclick="SuburbFunction()" class="dropbtn">Suburb &#9660;</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#example">Example</a>
+      
+    
+  </div>
+</div>
+    
+    <button onclick="RatingFunction()" class="dropbtn">Rating &#9660;</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#example">Example</a>
+    </div>
+    <button class="btntarget" alt = "Find the nearest"><i class="fa fa-crosshairs"></i></button>
+<input type="submit" value="Go">
+</div>
+    
+    
+    
+</body>
+</html>

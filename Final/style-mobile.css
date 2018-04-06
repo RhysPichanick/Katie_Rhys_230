@@ -1,0 +1,224 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("http://www.lctsys.com/assets/images/world_bg_wifi.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    height:10vh;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height:10vh;
+}
+
+li a:hover:not(.active) {
+    background-color: antiquewhite;
+    
+}
+
+.active {
+    background-color: #4CAF50;
+}
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+input:hover{
+    border-color: #a0a0a0 ;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0 16px;
+    height:36px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+.search {
+   position: absolute;
+  top: 50vh;
+  left: 40vw;
+  margin: -100px 0 0 -150px;
+}
+.searchnnav {
+   position: relative;
+  top: 50vh;
+  left: 40vw;
+  margin: -100px 0 0 -150px;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color:deepskyblue;
+    transition: 0.5s;
+}
+
+#myInput {
+    
+   
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.btntarget{
+    background-color: white; /* Green */
+    border: red;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.btntarget:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.result {
+    margin-left: 5vw;
+    padding-right: 20px;
+    padding-top: 10vh;
+}
+.location_info{
+    margin-left: 10vw;
+}
+#map{
+    width:30vw;
+    height:40vh;
+    position: relative;
+    
+    margin-top: -10vh;
+    
+    
+}
+.columnleft{
+    
+}
+.columnmid{
+    margin-left:10vw;
+    width:20vw;
+    margin-top: -45vh;
+    
+}
+.columnright{
+    margin-left: 50vw;
+}
+.ind_map {
+    padding-left: 5vw;
+    margin-top: 15vh;
+    width:20vw;
+    background: red;
+}
+.ind_result {
+    margin-left: 5vw;
+    padding-right: 20px;
+    padding-top: 10vh;
+}
+.ind_info {
+    width:80vw;
+}
+section {
+    width: 80%;
+    height: 50vh;
+    
+    margin-left: 50px;
+    padding: 10px;
+}
+div#one {
+    width: 30vw;
+    height:50vh;
+    padding-top: 100px;
+    padding-right: 50px;
+    float: left;
+}
+div#two {
+    padding-left: 20px;
+    height:50vh;
+}
+.rev_search{
+    position: absolute;
+    float:left;
+    left: 50px;
+}
+.review {
+    float:left;
+    position: absolute;
+    margin-top:60px;
+    left:60px;
+    z-index: -1;
+}
